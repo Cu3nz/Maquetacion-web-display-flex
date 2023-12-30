@@ -2,7 +2,7 @@
 Proyecto Maquetación Flex. Diseño web adaptable utilizando Flexbox en HTML y CSS, con enfoque en estilos responsivos.
 
 # Proyecto de Maquetación Web con Flexbox 🧑🏻‍💻
-![display 2](https://github.com/Cu3nz/Maquetaci-n-web-display-flex/assets/145379555/cd0fc687-6182-43b7-8fe2-720171a5b97a)
+![display 2](https://cdn.thexcodes.com/imgs/capa-css-flexbox-1024x436.png)
 
 ## Descripción 📖
 Este proyecto, esta desarrollado por **Sergio Gallegos Guerrero**, es una galería de imágenes  implementada con **HTML** y **CSS**. Utiliza **Flexbox** para un diseño **responsivo** y **adaptable**, ofreciendo una experiencia de usuario fluida y atractiva.
