@@ -1,0 +1,169 @@
+header{
+    text-align: center;
+    /* font-family: 'Caveat', cursive; */
+    font-family: 'Lobster', sans-serif;
+    color: green;
+    
+}
+
+h3{ /*todo Estilo para el h4 del header, el que pone mi nombre y asignatura*/
+    margin-top: -20px; /*? Para que este mas cerca de mi nombre y el modulo*/
+    color: teal;
+    
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Lobster', sans-serif;
+    
+    
+  }
+
+#contenedor_flex{
+    display: flex; /*? Disposicion flex */
+    flex-direction: row; /* ? Direcion de los elementos flexibles row ajusta los elementos de izquierda a derecha, es por la que esta por defecto, pero por visualizarlo mejor*/
+    flex-wrap: wrap; /* ? Ajuste de los elementos, wrap provoca un salto de linea si la anchura de los elementos es superior al contenedor, vamos cuando no cabe en el contenedor.*/
+    /* justify-content: start; */
+}
+
+#Menu_nav ul{ /* todo Estilo para el menu de navegacion*/
+    list-style: none; /*? Quitar los puntos negros de la lista*/
+    /* margin-top: 20px; */ /*? Margen en cada una de las opciones del nav*/
+    
+    
+}
+
+#Menu_nav ul li {
+    margin-top: 20px;
+    
+}
+
+#Menu_nav ul li a{
+    margin-top: 20px; /*? Margen en cada una de las opciones del nav*/
+    width: 120px; /* ? Margen entre el menu nav y el primer figure*/
+    color: #008000;
+    /* margin-right: 90px; */ /*? Para que este el menu mas a la izquierda y deje un margen entre el nav y el primer figure*/
+    font-weight: bold; /*? Poner la letra en negrita*/
+    text-decoration: none; /* ? Quitar el subrayado*/
+    
+}
+
+#Menu_nav ul li a:hover {
+    font-size: 1.1vw; /* ? Cambia el tamaño de fuente al pasar el ratón por encima */
+    transition: color 0.5s ease, font-size 0.5s ease;  /*?Para que haga el efecto hover cuanda se pasa el raton*/
+}
+
+
+/*todo FORMATO PARA la primera imagen del figure */
+
+#contenedor_flex #imagen1{
+    border: 2px solid #000; /*? Borde que rodea el figure*/
+    border-radius: 20px; /*? Para que tenga un margen */
+    padding: 10px;
+    width: 50%;
+}
+#contenedor_flex #imagen1 #imagen_fila_1{ /*todo Estilos para los bordes del la imagen*/
+    /* border: 3px  solid;*/ /* ? Borde que rodea la imagen*/
+    border-radius: 20px;
+    width: 80%;
+    height: 60vh;
+    display: block; /*? Lo definimos como un bloque*/
+    margin: 0px auto; /*? Centramos la imagen*/
+}
+
+#contenedor_flex #imagen1 #figcaption_img1 figcaption{
+    margin-top: 20px;
+    width: 70%;
+}
+
+
+
+
+
+
+figure figcaption{ /*Formato para todos los figcaption*/
+    color: green;
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 800;
+}
+
+/*todo Fin  FORMATO PARA la primera imagen del figure */
+
+
+#contenedor_flex .demas_fotos{ /*! Cambiar el alto del figure*/
+    border: 2px solid #000; /*? Borde que rodea el figure*/
+    border-radius: 20px; /*? Para que tenga un margen */
+    padding: 20px 20px 0px 20px;
+    width: 25%;
+    height: 85vh; /*? Altura para el figure */
+}
+
+.demas_fotos .img_demas_fotos {  /* * Estilo para todas las fotos, menos la primera*/
+    height: 64vh;
+    width: 80%;
+    display: block; /* ? Para que se comporte como un bloque */
+    margin: 0px auto; /* ? Para que este centrada*/
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+
+#contenedor_flex .demas_fotos:nth-of-type(3) { /*? Estilo para el 3 imagen de la fila 2*/
+    margin-left: 9.5%; /*? Margen de izquierda a derecha */
+}
+
+#contenedor_flex .demas_fotos{
+    margin-left: 0.9%;
+    margin-right: 0.8%;
+    /* margin-left: 27px;
+    margin-right: 10px; */
+}
+/*todo FORMATO PARA LAS DEMAS FIGURES E IMAGENES */
+
+
+/*todo Estilos para el footer*/
+
+footer{
+    display: flex;
+    padding: 2em; /* ? Margen entre el contenido y el borde*/
+    color: green;
+    font-size: 1vw;
+}
+
+/* footer div {
+    border: 1px solid black;
+    /* height: 150px; 
+  } */
+
+
+  footer #izquierdo{
+    flex-basis: 40%; /* ? Anchula del contenedor div izquierdo */
+  }
+
+  footer #central{
+    flex-basis: 220%;
+    text-align: center;
+    color: teal;
+  }
+
+  footer #derecho{
+    flex-basis: 50%;
+  }
+
+  footer #derecho img{
+    margin-top: 2%; /*? Separar un poco las imagenes del margen de arriba*/
+    cursor: pointer;
+    margin-left: 2px;
+    width: 20%;
+  }
+
+
+
+
+
