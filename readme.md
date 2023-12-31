@@ -1,5 +1,3 @@
-# Maquetacion-web-display-flex
-Proyecto Maquetación Flex. Diseño web adaptable utilizando Flexbox en HTML y CSS, con enfoque en estilos responsivos.
 
 # Proyecto de Maquetación Web con Flexbox 🧑🏻‍💻
 ![display 2](https://cdn.thexcodes.com/imgs/capa-css-flexbox-1024x436.png)
