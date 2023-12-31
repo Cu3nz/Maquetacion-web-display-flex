@@ -2,7 +2,7 @@
 # Proyecto de Maquetación Web con Flexbox 🧑🏻‍💻
 ![display 2](https://cdn.thexcodes.com/imgs/capa-css-flexbox-1024x436.png)
 
-## Descripción 📖
+## 📖 Descripción 
 Este proyecto, esta desarrollado por **Sergio Gallegos Guerrero**, es una galería de imágenes  implementada con **HTML** y **CSS**. Utiliza **Flexbox** para un diseño **responsivo** y **adaptable**, ofreciendo una experiencia de usuario fluida y atractiva.
 
 ## 🔨 Tecnologías Utilizadas
@@ -46,6 +46,14 @@ git clone https://github.com/Cu3nz/Maquetacion-web-display-flex.git
 
 ## 🚀 Despliegue 
 Para interactuar con la página web, simplemente ejecute el archivo `index.html` ubicado en la carpeta principal del proyecto y poder interactuar con la página. 
+>[!IMPORTANT]
+>
+>Para que la página web tenga estilos **css** tiene que estar definida la siguiente linea de codigo en el bloque **header** del archivo `index.html`. 
+
+```
+<link rel="stylesheet" href="css/estilos.css">
+```
+
 
 ## ✒️ Autores 
 **Sergio Gallegos Guerrero**
