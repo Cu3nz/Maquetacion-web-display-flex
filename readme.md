@@ -32,10 +32,11 @@ Puedes hacerlo de dos formas:
     ```
 4. Una vez en el directorio deseado, ejecuta el comando `git clone` seguido de la URL del repositorio de GitHub. Puedes obtener esta URL haciendo clic en el botón **Code** en el repositorio y copiando la URL proporcionada. El comando completo se verá así:
 
-```
-git clone https://github.com/Cu3nz/Maquetacion-web-display-flex.git
 
 ```
+git clone https://github.com/Cu3nz/Maquetacion-web-display-flex.git
+```
+
 5.  Al ejecutar este comando, se creará una copia local del repositorio en tu equipo. El proyecto se llamara  **Maquetacion-web-display-flex** 
 
 ## 📁 Estructura del Proyecto
