@@ -48,7 +48,7 @@ git clone https://github.com/Cu3nz/Maquetacion-web-display-flex.git
 Para interactuar con la página web, simplemente ejecute el archivo `index.html` ubicado en la carpeta principal del proyecto y poder interactuar con la página. 
 >[!IMPORTANT]
 >
->Para que la página web tenga estilos **css** tiene que estar definida la siguiente linea de codigo en el bloque **header** del archivo `index.html`. 
+>Para que la página web tenga estilos **css** tiene que estar definida la siguiente linea de codigo en el bloque **head** del archivo `index.html`. 
 
 ```
 <link rel="stylesheet" href="css/estilos.css">
