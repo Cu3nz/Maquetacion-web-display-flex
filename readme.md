@@ -16,13 +16,15 @@ Este proyecto, esta desarrollado por **Sergio Gallegos Guerrero**, es una galer�
 ## 🔧 Instalación 
 
 Puedes hacerlo de dos formas: 
-
-> Descangando el proyecto desde esta misma página, para hacerlo tienes que seguir los siguientes pasos: 
+>[!TIP]
+>
+> Descangando el proyecto desde esta misma **página**, para hacerlo tienes que seguir los siguientes pasos: 
 1. Hacemos clic en el botón **Code** en la esquina superior derecha del repositorio de GitHub.
 2. Seleccionamos la opción **Download ZIP** para descargar el proyecto.
 3. Una vez completada la **descarga**, **extraemos** los archivos del **ZIP** en una ubicación deseada de nuestro equipo. Con esto, tendremos el proyecto disponible de forma **local** para su uso y exploración.
-
-> Mediante comandos en la terminal:
+>[!TIP]
+>
+> Mediante **comandos** en la **terminal**:
 1. Abre la **terminal** de tu equipo.
 2. Navega hasta el directorio donde deseas clonar el proyecto usando el comando `cd`.
    
